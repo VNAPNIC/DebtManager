@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="380dp"
+        android:layout_height="fill_parent"
+        android:minHeight="130dp"
+        android:padding="10dp" >
+
+		<LinearLayout
+			android:id="@+id/header_top"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:orientation="horizontal">
+
+			<RelativeLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="16dp">
+
+				<vnapnic.project.debtmanager.view.RoundedImageView
+					android:id="@+id/header_pic3"
+					android:layout_width="140dp"
+					android:layout_height="140dp"
+					android:layout_marginLeft="80dp"
+					android:contentDescription="@string/contentDesc"
+					android:visibility="gone"/>
+
+                <vnapnic.project.debtmanager.view.RoundedImageView
+					android:id="@+id/header_pic2"
+					android:layout_width="140dp"
+					android:layout_height="140dp"
+					android:layout_marginLeft="40dp"
+					android:contentDescription="@string/contentDesc"
+					android:visibility="gone" />
+
+                <vnapnic.project.debtmanager.view.RoundedImageView
+					android:id="@+id/header_pic"
+					android:layout_width="140dp"
+					android:layout_height="140dp"
+					android:contentDescription="@string/contentDesc" />
+
+			</RelativeLayout>
+
+			<TextView
+				android:id="@+id/overflow_text"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_alignParentRight="true"
+				android:textSize="30sp"
+				android:gravity="center"
+				android:fontFamily="sans-serif-light"
+				android:visibility="gone"/>
+
+		</LinearLayout>
+
+        <TextView
+            android:id="@+id/header_names"
+            style="@style/EnterDebt_NamesText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header_top"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/text" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_toRightOf="@id/header"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/they_owe_me"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/main_background_slightlyDarker"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/they_owe_me"
+            android:textAllCaps="true"
+            android:textColor="@color/main_foreground"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/i_owe_them"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/main_background_slightlyDarker"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/i_owe_them"
+            android:textAllCaps="true"
+            android:textColor="@color/main_foreground"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_group"
+        android:layout_margin="15dp"
+        android:layout_toRightOf="@id/header"
+        android:hint="@string/description_hint"
+        android:lines="2" />
+
+    <CheckBox
+        android:id="@+id/split_amount"
+        style="@style/CustomCheckBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/header"
+        android:checked="false"
+        android:padding="10dp"
+        android:text="@string/split_amount" />
+
+    <CheckBox
+        android:id="@+id/incl_me"
+        style="@style/CustomCheckBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/split_amount"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/header"
+        android:checked="false"
+        android:padding="10dp"
+        android:text="@string/including_me" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/incl_me"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/header"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="top|center_horizontal"
+        android:textColor="@color/emphasised_text"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/donebtn"
+        style="@style/CustomBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_wide_red"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="onNextButtonClick"
+        android:text="@string/done" />
+
+</RelativeLayout>

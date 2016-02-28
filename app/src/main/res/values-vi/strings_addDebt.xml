@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="description_hint">Mô tả (không bắt buộc)</string>
+    <string name="no_amount_entered">Không có tiền nhập</string>
+    <string name="please_enter_amount">Vui lòng nhập một số tiền để thao tác tiếp</string>
+
+    <string name="they_owe_me">Họ nợ tôi</string>
+    <string name="i_owe_them">Tôi nợ họ</string>
+    <string name="add_friend">Thêm bạn</string>
+    <string name="enter_friends_name">Thêm Theo Tên</string>
+    <string name="invalid_name_entry">Bạn chưa nhập tên hoặc có lỗi. Thử lại.</string>
+    <string name="debt_saved">Nợ đã được lưu</string>
+    <string name="split_amount">Số tiền phân chia giữa tất cả mọi người</string>
+    <string name="including_me">Bao gồm cả tôi</string>
+    <string name="choose_people">Chọn một hoặc nhiều người</string>
+    <string name="whats_debt_amount">Có bao nhiêu số nợ</string>
+    <string name="summary">Tóm tắt</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero_zero">00</string>
+    <string name="zero">0</string>
+    <string name="clear">C</string>
+
+    <string name="nobody_here">Chưa có ai trong danh sách</string>
+    <string name="add_someone">Thêm người</string>
+</resources>

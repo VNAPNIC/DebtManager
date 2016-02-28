@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/activity_friendchooser_donebtn"
+        style="@style/CustomBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_wide_red"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="onNextButtonClick"
+        android:text="@string/next" />
+
+    <ListView
+        android:id="@+id/activity_friendchooser_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/activity_friendchooser_donebtn"
+        android:divider="@null" >
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/activity_friendchooser_emptystate"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/activity_friendchooser_donebtn"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/activity_friendchooser_helptxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-condensed"
+            style="@style/FriendsList.EmptyListText"
+            android:gravity="center_horizontal"
+            android:text="@string/nobody_here"/>
+
+        <Button
+            android:id="@+id/activity_friendchooser_helpbtn"
+            style="@style/CustomBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_friendchooser_helptxt"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_wide_red"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="15dp"
+            android:text="@string/add_someone" />
+    </RelativeLayout>
+
+</RelativeLayout>

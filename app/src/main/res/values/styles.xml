@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="FriendsList.Text" parent="@android:style/TextAppearance.Holo.Medium">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="FriendsList.EmptyListText" parent="@android:style/Widget.Holo.TextView">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="AddDebt.LabelText" parent="@android:style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="AddDebt.SelectedFriendText" parent="@android:style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="FriendChooser.ListText" parent="@android:style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="AddDebt.AmountEditText" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="EnterDebtAmount_Button">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:background">@drawable/btn_enteramount</item>
+    </style>
+
+    <style name="EnterDebt_NamesText">
+        <item name="android:textSize">28sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <style name="CustomBtn" parent="@android:style/Widget.Holo.Button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>

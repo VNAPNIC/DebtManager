@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/fragment_enterdebtamount_amountGrp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_background" >
+
+        <ImageButton
+            android:id="@+id/fragment_enterdebtamount_backspace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/main_background"
+            android:contentDescription="@string/contentDesc"
+            android:padding="10dp"
+            android:src="@drawable/ic_backspace" />
+
+        <TextView
+            android:id="@+id/fragment_enterdebtamount_amount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:textSize="45sp"
+            android:layout_toLeftOf="@id/fragment_enterdebtamount_backspace"
+            android:fontFamily="sans-serif-light"
+            android:gravity="right"
+            android:padding="10dp"
+            android:scrollHorizontally="true"
+            android:text="0.00"
+            android:textColor="@color/text" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/fragment_enterdebtamount_donebtn"
+        style="@style/CustomBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_wide_red"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="onNextButtonClick"
+        android:text="@string/next" />
+
+    <LinearLayout
+        android:id="@+id/fragment_enterdebtamount_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/fragment_enterdebtamount_donebtn"
+        android:layout_below="@id/fragment_enterdebtamount_amountGrp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/fragment_enterdebtamount_grid_row1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/fragment_enterdebtamount_one"
+                style="@style/EnterDebtAmount_Button"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:hapticFeedbackEnabled="true"
+                android:text="@string/one" />
+
+            <Button
+                android:id="@+id/fragment_enterdebtamount_two"
+                style="@style/EnterDebtAmount_Button"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:hapticFeedbackEnabled="true"
+                android:text="@string/two" />
+
+            <Button
+                android:id="@+id/fragment_enterdebtamount_three"
+                style="@style/EnterDebtAmount_Button"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:hapticFeedbackEnabled="true"
+                android:text="@string/three" />
+
+			<Button
+				android:id="@+id/fragment_enterdebtamount_clear"
+				style="@style/EnterDebtAmount_Button"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:fontFamily="sans-serif-light"
+				android:hapticFeedbackEnabled="true"
+				android:text="@string/clear"
+				android:textColor="@color/red_debt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_enterdebtamount_grid_row2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/fragment_enterdebtamount_four"
+                style="@style/EnterDebtAmount_Button"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:hapticFeedbackEnabled="true"
+                android:text="@string/four" />
+
+            <Button
+                android:id="@+id/fragment_enterdebtamount_five"
+                style="@style/EnterDebtAmount_Button"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:hapticFeedbackEnabled="true"
+                android:text="@string/five" />
+
+            <Button
+                android:id="@+id/fragment_enterdebtamount_six"
+                style="@style/EnterDebtAmount_Button"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:hapticFeedbackEnabled="true"
+                android:text="@string/six" />
+
+			<Button
+				android:id="@+id/fragment_enterdebtamount_zero"
+				style="@style/EnterDebtAmount_Button"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:fontFamily="sans-serif-light"
+				android:hapticFeedbackEnabled="true"
+				android:text="@string/zero" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_enterdebtamount_grid_row3"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/fragment_enterdebtamount_seven"
+                style="@style/EnterDebtAmount_Button"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:hapticFeedbackEnabled="true"
+                android:text="@string/seven" />
+
+            <Button
+                android:id="@+id/fragment_enterdebtamount_eight"
+                style="@style/EnterDebtAmount_Button"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:hapticFeedbackEnabled="true"
+                android:text="@string/eight" />
+
+            <Button
+                android:id="@+id/fragment_enterdebtamount_nine"
+                style="@style/EnterDebtAmount_Button"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:hapticFeedbackEnabled="true"
+                android:text="@string/nine" />
+
+			<Button
+				android:id="@+id/fragment_enterdebtamount_doublezero"
+				style="@style/EnterDebtAmount_Button"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:fontFamily="sans-serif-light"
+				android:hapticFeedbackEnabled="true"
+				android:text="@string/zero_zero" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/settings_general_title" >
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/settings_general_currency_keys"
+            android:entryValues="@array/settings_general_currency_values"
+            android:key="currencies_list"
+            android:negativeButtonText="@string/cancel"
+            android:positiveButtonText="@null"
+            android:summary="@string/settings_general_currency_desc"
+            android:title="@string/settings_general_currency_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_debthistory_title" >
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/settings_dateformat_keys"
+            android:entryValues="@array/settings_dateformat_values"
+            android:key="dateformat_list"
+            android:negativeButtonText="@string/cancel"
+            android:positiveButtonText="@null"
+            android:summary="@string/settings_dateformat_desc"
+            android:title="@string/settings_dateformat_title" />
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/settings_debthistoryicons_colour_keys"
+            android:entryValues="@array/settings_debthistoryicons_colour_values"
+            android:key="debthistoryColours"
+            android:negativeButtonText="@string/cancel"
+            android:positiveButtonText="@null"
+            android:summary="@string/settings_debthistoryicons_colour_desc"
+            android:title="@string/settings_debthistoryicons_colour_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_friendsList_title" >
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/settings_friendsList_sortOrder_keys"
+            android:entryValues="@array/settings_friendsList_sortOrder_values"
+            android:key="sortOrder"
+            android:negativeButtonText="@string/cancel"
+            android:positiveButtonText="@null"
+            android:summary="@string/settings_friendsList_sortOrder_summary"
+            android:title="@string/settings_friendsList_sortOrder_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_feedback" >
+        <Preference
+            android:selectable="true"
+            android:key="feedback"
+            android:summary="@string/settings_feedback_summary"
+            android:title="@string/settings_feedback_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

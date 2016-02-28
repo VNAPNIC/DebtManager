@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Debt Manager</string>
+    <string name="refresh">Làm mới</string>
+    <string name="author">Matt Allen</string>
+    <string name="contentDesc">Content</string>
+    <string name="title_activity_frienddetails">Tổng quan</string>
+    <string name="title_activity_add_debt">Thêm nợ</string>
+    <string name="required">Cần thiết</string>
+    <string name="optional">Không bắt buộc</string>
+    <string name="done">Hoàn tất</string>
+    <string name="cancel">hủy bỏ</string>
+    <string name="next">Kế tiếp</string>
+	<string name="okay">Okay</string>
+	<string name="add">Thêm</string>
+	<string name="share">Chia sẻ</string>
+	<string name="info">Thông tin</string>
+	<string name="delete">Xóa</string>
+
+    <!-- Displayed when there are no friends in the database -->
+
+    <string name="havent_added_anyone">Bạn chưa thêm bất cứ ai.?\n\nsử dụng nút Plus để Bắt đầu</string>
+
+    <string name="action_settings">Cài đặt</string>
+    <string name="action_adddebt">Thêm nợ</string>
+    <string name="action_addperson">Thêm người</string>
+    <string name="action_total">Tổng số</string>
+    <string name="action_cleardebt">Trả nợ</string>
+    <string name="action_info">Trợ giúp</string>
+    <string name="action_feedback">Gửi phản hồi</string>
+    <string name="action_delete">Xóa</string>
+    <string name="action_unLinkContact">Bỏ liên kết Liên hệ</string>
+    <string name="action_reLinkContact">Liên kết đến liên hệ</string>
+    <string name="action_recalculateTotals">Tính toán lại tổng số</string>
+
+    <string name="enter_amount">Nhập Số tiền</string>
+    <string name="get_started">Bắt đầu</string>
+	<string name="history">Lịch sử</string>
+	<string name="even_debt">You\'re Even</string>
+	<string name="close">Đóng</string>
+	<string name="problem_getting_from_contacts">Vấn đề trong việc lấy kết quả từ các liên hệ của bạn</string>
+	<string name="problem_adding_to_repay">Có vấn đề trong việc thêm người Trả nợ  này</string>
+	<string name="friend_could_not_be_added">không thể được thêm Bạn bè vào</string>
+	<string name="enter_name">Nhập Họ tên</string>
+	<string name="please_enter_name">Xin vui lòng nhập một tên</string>
+	<string name="manage_debt">quản lý nợ</string>
+	<string name="youre_owed">Bạn đang còn nợ</string>
+    <string name="Add_From_Contacts">Thêm Từ Liên hệ</string>
+    <string name="Add_A_Name">Thêm một tên</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-6092828069522249/8618468819</string>
+
+</resources>

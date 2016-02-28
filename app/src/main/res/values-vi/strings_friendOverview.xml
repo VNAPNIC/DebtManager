@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="no_debts">Không có nợ giữa bạn</string>
+    
+    <string name="info_dialog_text">Danh sách này sẽ hiển thị tất cả số tiền mà bạn or họ còn nợ trong quá khứ.\n\nĐỏ có nghĩa là họ đã trả tiền cho bạn \n\nXanh có nghĩa là bạn phải trả tiền cho họ</string>
+
+    <string name="confirm_remove_person">Bạn có chắc chắn muốn xoá người này?</string>
+    <string name="confirm_remove_debt">Bạn có chắc chắn muốn xóa bỏ khoản nợ này?</string>
+    <string name="are_you_sure">Bạn có chắc không?</string>
+    <string name="clear_debt">Thanh toàn toàn bộ số nợ</string>
+
+    <string name="debt_repaid">Trả nợ</string>
+    
+    <string name="choose_sms">Chọn Số Để gửi tin nhắn SMS tới</string>
+    <string name="choose_email">Chọn Địa chỉ email để Gửi Email tới</string>
+    
+    <string name="debtselected_title">Chỉnh sửa Hoặc Xóa nợ?</string>
+    <string-array name="debtselected_items">
+        <item>Sửa</item>
+        <item>Xóa</item>
+    </string-array>
+    
+    <string name="debt_repaid_title">Xóa hết nợ Hoặc Nhập Số tiền?</string>
+    <string-array name="debt_repaid_items">
+        <item>Hoàn trả tất cả khoản nợ</item>
+        <item>Nhập Số tiền hoàn trả</item>
+    </string-array>
+    
+    <string name="i_owe">Tôi nợ</string>
+    <string name="they_owe">Họ Nợ</string>
+
+</resources>

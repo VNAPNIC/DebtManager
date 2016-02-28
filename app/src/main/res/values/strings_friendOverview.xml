@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="no_debts">There\'s no debts between you</string>
+    
+    <string name="info_dialog_text">This list will show all the money that you have
+        owed each other in the past.\n\nRed means that they have paid money to you\n\nGreen means that you paid money to them</string>
+
+    <string name="confirm_remove_person">Are you sure you want to remove this person?</string>
+    <string name="confirm_remove_debt">Are you sure you want to remove this debt?</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="clear_debt">Clear Debt</string>
+
+    <string name="debt_repaid">Debt Repaid</string>
+    
+    <string name="choose_sms">Choose Number To Send SMS To</string>
+    <string name="choose_email">Choose Address To Send Email To</string>
+    
+    <string name="debtselected_title">Edit Or Delete Debt?</string>
+    <string-array name="debtselected_items">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+    
+    <string name="debt_repaid_title">Clear All Debt Or Enter Amount?</string>
+    <string-array name="debt_repaid_items">
+        <item>All Debts Repaid</item>
+        <item>Enter Amount Repaid</item>
+    </string-array>
+    
+    <string name="i_owe">I Owe</string>
+    <string name="they_owe">They Owe</string>
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Debt Manager</string>
+    <string name="refresh">Refresh</string>
+    <string name="author">Matt Allen</string>
+    <string name="contentDesc">Content</string>
+    <string name="title_activity_frienddetails">Overview</string>
+    <string name="title_activity_add_debt">Add Debt</string>
+    <string name="required">Required</string>
+    <string name="optional">Optional</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+	<string name="okay">Okay</string>
+	<string name="add">Add</string>
+	<string name="share">Share</string>
+	<string name="info">Info</string>
+	<string name="delete">Delete</string>
+
+    <!-- Displayed when there are no friends in the database -->
+    <string name="havent_added_anyone">You haven\'t added anyone yet?\n\nUse the Plus Button to Get Started</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_adddebt">Add Debt</string>
+    <string name="action_addperson">Add Person</string>
+    <string name="action_total">Total</string>
+    <string name="action_cleardebt">Debt Repaid</string>
+    <string name="action_info">Help</string>
+    <string name="action_feedback">Send Feedback</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_unLinkContact">Unlink Contact</string>
+    <string name="action_reLinkContact">Link To Contact</string>
+    <string name="action_recalculateTotals">Recalculate Totals</string>
+
+    <string name="enter_amount">Enter Amount</string>
+    <string name="get_started">Get Started</string>
+	<string name="history">History</string>
+	<string name="even_debt">You\'re Even</string>
+	<string name="close">Close</string>
+	<string name="problem_getting_from_contacts">Problem in getting result from your contacts</string>
+	<string name="problem_adding_to_repay">There was a problem in adding this person to Repay</string>
+	<string name="friend_could_not_be_added">Friend could not be added</string>
+	<string name="enter_name">Enter Their Name</string>
+	<string name="please_enter_name">Please Enter A Name</string>
+	<string name="manage_debt">Manage Debt</string>
+	<string name="youre_owed">You\'re Owed</string>
+    <string name="Add_From_Contacts">Add From Contacts</string>
+    <string name="Add_A_Name">Add A Name</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-6092828069522249/8618468819</string>
+
+</resources>

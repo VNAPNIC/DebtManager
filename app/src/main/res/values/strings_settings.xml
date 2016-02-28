@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="settings_activity_title">Settings</string>
+    <string name="settings_debthistory_title">Debt History</string>
+    <string name="settings_general_title">General</string>
+    <string name="settings_general_currency_title">Set Currency</string>
+    <string name="settings_general_currency_desc">Set the currency notation used in Repay. Stored debts will not be converted.</string>
+    
+    <string-array name="settings_general_currency_keys">
+		<item>Default System Currency</item>
+        <item>UK - Pounds</item>
+        <item>US - Dollars</item>
+        <item>EU - Euros</item>
+    </string-array>
+    
+    <string-array name="settings_general_currency_values">
+		<item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <string name="settings_dateformat_title">Set Date Format</string>
+    <string name="settings_dateformat_desc">Choose the date format used on the debt history tab</string>
+    
+    <string-array name="settings_dateformat_keys">
+        <item>Default Device Format</item>
+        <item>31/01/2013</item>
+        <item>01/31/2013</item>
+        <item>2013/01/31</item>
+        <item>Mon 31 Jan 2013</item>
+    </string-array>
+    
+    <string-array name="settings_dateformat_values">
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>3</item>
+    </string-array>
+    
+    <string name="settings_debthistoryicons_colour_title">Debt Indicator Colours</string>
+    <string name="settings_debthistoryicons_colour_desc">The colours to use on the debt history list</string>
+    
+    <string-array name="settings_debthistoryicons_colour_keys">
+        <item>Green/Red</item>
+        <item>Green/Blue</item>
+    </string-array>
+    
+    <string-array name="settings_debthistoryicons_colour_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string name="settings_usegridview_title">Use Grid Layout On Summary</string>
+    <string name="settings_usegridview_description">Use a grid view on the summary instead of a list</string>
+    
+    <string name="settings_friendsList_title">Friends List</string>
+    
+    <string name="settings_friendsList_sortOrder_title">Sort Order</string>
+    <string name="settings_friendsList_sortOrder_summary">Set the order that your friends appear in the list</string>
+    
+    <string-array name="settings_friendsList_sortOrder_keys">
+        <item>Show People Who Owe Me First</item>
+        <item>Show People I Owe First</item>
+    </string-array>
+    
+    <string-array name="settings_friendsList_sortOrder_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string name="settings_feedback">Feedback</string>
+    <string name="settings_feedback_title">Report a Problem</string>
+    <string name="settings_feedback_summary">If you\'ve run into a bug with app, please press here to let me know and i\'ll try and fix it</string>
+    
+</resources>

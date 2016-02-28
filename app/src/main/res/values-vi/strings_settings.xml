@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="settings_activity_title">Cài đặt</string>
+    <string name="settings_debthistory_title">Lịch sử nợ</string>
+    <string name="settings_general_title">Cài đặt chung</string>
+    <string name="settings_general_currency_title">Thiết lập tiền tệ</string>
+    <string name="settings_general_currency_desc">Đặt các ký hiệu tiền tệ sử dụng trong Thanh toán tiền. nợ được lưu trữ sẽ không được chuyển đổi.</string>
+    
+    <string-array name="settings_general_currency_keys">
+		<item>Mặc định hệ thống ngoại tệ</item>
+        <item>UK - Pounds</item>
+        <item>US - Dollars</item>
+        <item>EU - Euros</item>
+    </string-array>
+    
+    <string-array name="settings_general_currency_values">
+		<item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <string name="settings_dateformat_title">Thiết lập định dạng ngày tháng</string>
+    <string name="settings_dateformat_desc">Chọn định dạng ngày tháng sử dụng trên tab lịch sử nợ</string>
+    
+    <string-array name="settings_dateformat_keys">
+        <item>Thiết lập định dạng mặc định</item>
+        <item>31/01/2013</item>
+        <item>01/31/2013</item>
+        <item>2013/01/31</item>
+        <item>Mon 31 Jan 2013</item>
+    </string-array>
+    
+    <string-array name="settings_dateformat_values">
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>3</item>
+    </string-array>
+    
+    <string name="settings_debthistoryicons_colour_title">Mầu nợ</string>
+    <string name="settings_debthistoryicons_colour_desc">Những màu sắc để sử dụng trên danh sách lịch sử nợ</string>
+    
+    <string-array name="settings_debthistoryicons_colour_keys">
+        <item>Green/Red</item>
+        <item>Green/Blue</item>
+    </string-array>
+    
+    <string-array name="settings_debthistoryicons_colour_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string name="settings_usegridview_title">Sử dụng bố trí kiểu lưới trên bản đồ tóm tắt</string>
+    <string name="settings_usegridview_description">Hiển thị kiểu bố trí dạng lưới thay vì danh sách trên bản đồ tóm tắt</string>
+    
+    <string name="settings_friendsList_title">Danh sách bạn bè</string>
+    
+    <string name="settings_friendsList_sortOrder_title">Sắp xếp</string>
+    <string name="settings_friendsList_sortOrder_summary">Thiết lập thứ tự mà bạn bè của bạn xuất hiện trong danh sách</string>
+    
+    <string-array name="settings_friendsList_sortOrder_keys">
+        <item>Hiển thị những người nợ tôi đầu tiên</item>
+        <item>Hiển thị những người tôi nợ đầu tiên</item>
+    </string-array>
+    
+    <string-array name="settings_friendsList_sortOrder_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string name="settings_feedback">Phản hồi</string>
+    <string name="settings_feedback_title">Report a Problem</string>
+    <string name="settings_feedback_summary">Nếu bạn gặp một số vấn đề về phần mềm thì hãy ấn vào đây và báo cáo cho tôi biết, tôi sẽ khắc phục sự cố cho bạn</string>
+    
+</resources>

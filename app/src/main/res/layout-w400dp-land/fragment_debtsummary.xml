@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<Button
+		android:id="@+id/donebtn"
+		style="@style/CustomBtn"
+		android:layout_width="150dp"
+		android:layout_height="120dp"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/btn_wide_red"
+		android:fontFamily="sans-serif-condensed"
+		android:onClick="onNextButtonClick"
+		android:text="@string/done" />
+
+	<LinearLayout
+		android:id="@+id/radio_group"
+		android:layout_width="150dp"
+		android:layout_height="match_parent"
+		android:layout_alignParentRight="true"
+		android:layout_above="@id/donebtn"
+		android:background="@color/main_background_slightlyDarker"
+		android:orientation="vertical" >
+
+		<TextView
+			android:id="@+id/they_owe_me"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:background="@color/main_background_slightlyDarker"
+			android:fontFamily="sans-serif-condensed"
+			android:gravity="center"
+			android:paddingBottom="10dp"
+			android:paddingTop="10dp"
+			android:text="@string/they_owe_me"
+			android:textAllCaps="true"
+			android:textColor="@color/main_foreground"
+			android:textSize="18sp"
+			android:textStyle="bold" />
+
+		<TextView
+			android:id="@+id/i_owe_them"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:background="@color/main_background_slightlyDarker"
+			android:fontFamily="sans-serif-condensed"
+			android:gravity="center"
+			android:paddingBottom="10dp"
+			android:paddingTop="10dp"
+			android:text="@string/i_owe_them"
+			android:textAllCaps="true"
+			android:textColor="@color/main_foreground"
+			android:textSize="18sp"
+			android:textStyle="bold" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/header"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_toLeftOf="@id/donebtn"
+		android:layout_alignParentLeft="true"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="16dp">
+
+		<vnapnic.project.debtmanager.view.RoundedImageView
+			android:id="@+id/header_pic3"
+			android:layout_width="120dp"
+			android:layout_height="120dp"
+			android:layout_marginLeft="72dp"
+			android:contentDescription="@string/contentDesc"
+			android:visibility="gone"/>
+
+		<vnapnic.project.debtmanager.view.RoundedImageView
+			android:id="@+id/header_pic2"
+			android:layout_width="120dp"
+			android:layout_height="120dp"
+			android:layout_marginLeft="36dp"
+			android:contentDescription="@string/contentDesc"
+			android:visibility="gone" />
+
+		<vnapnic.project.debtmanager.view.RoundedImageView
+			android:id="@+id/header_pic"
+			android:layout_width="120dp"
+			android:layout_height="120dp"
+			android:contentDescription="@string/contentDesc" />
+
+	</RelativeLayout>
+
+	<TextView
+		android:id="@+id/overflow_text"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_alignParentRight="true"
+		android:textSize="30sp"
+		android:gravity="center"
+		android:fontFamily="sans-serif-light"
+		android:visibility="gone"/>
+
+	</LinearLayout>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_marginTop="4dp"
+		android:layout_marginBottom="8dp"
+		android:layout_toLeftOf="@id/donebtn"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+        android:hint="@string/description_hint"
+        android:padding="8dp" />
+
+
+	<TextView
+		android:id="@+id/amount"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/description"
+		android:layout_toLeftOf="@id/radio_group"
+		android:fontFamily="sans-serif-condensed"
+		android:layout_toRightOf="@id/incl_me"
+		android:gravity="center_horizontal|center_vertical"
+		android:textColor="@color/emphasised_text"
+		android:textSize="60sp" />
+
+    <CheckBox
+        android:id="@+id/split_amount"
+        style="@style/CustomCheckBox"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+        android:checked="false"
+        android:padding="6dp"
+        android:text="@string/split_amount" />
+
+    <CheckBox
+        android:id="@+id/incl_me"
+        style="@style/CustomCheckBox"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/split_amount"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+        android:checked="false"
+        android:padding="6dp"
+        android:text="@string/including_me" />
+
+</RelativeLayout>
